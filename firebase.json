@@ -1,21 +1,5 @@
 {
-  "hosting": [{
-      "target":"default",
-      "public": "build",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ]
-    },
-    {
-    "target":"beta",
+  "hosting": {
     "public": "build",
     "ignore": [
       "firebase.json",
@@ -28,5 +12,5 @@
         "destination": "/index.html"
       }
     ]
-  }]
+  }
 }
