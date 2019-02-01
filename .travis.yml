@@ -13,4 +13,4 @@ deploy:
   provider: firebase
   token:
     secure: $FIREBASE_TOKEN
-  project: "aebi-admin"
+  message: "Build has been deployed"
