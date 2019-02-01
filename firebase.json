@@ -1,6 +1,6 @@
 {
   "hosting": [{
-      "target": "default",
+      "target":"default",
       "public": "build",
       "ignore": [
         "firebase.json",
@@ -15,7 +15,7 @@
       ]
     },
     {
-    "target": "beta",
+    "target":"beta",
     "public": "build",
     "ignore": [
       "firebase.json",
@@ -28,6 +28,5 @@
         "destination": "/index.html"
       }
     ]
-  }
-  ]
+  }]
 }
